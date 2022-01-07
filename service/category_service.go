@@ -1,9 +1,10 @@
 package service
 
 import (
-	"belajar-golang-unit-test/entity"
-	"belajar-golang-unit-test/repository"
 	"errors"
+
+	"github.com/dimascapella/go-unit-test/entity"
+	"github.com/dimascapella/go-unit-test/repository"
 )
 
 type CategoryService struct {

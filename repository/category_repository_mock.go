@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"belajar-golang-unit-test/entity"
+	"github.com/dimascapella/go-unit-test/entity"
 	"github.com/stretchr/testify/mock"
 )
 

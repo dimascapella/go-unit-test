@@ -1,11 +1,12 @@
 package service
 
 import (
-	"belajar-golang-unit-test/entity"
-	"belajar-golang-unit-test/repository"
+	"testing"
+
+	"github.com/dimascapella/go-unit-test/entity"
+	"github.com/dimascapella/go-unit-test/repository"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
-	"testing"
 )
 
 var categoryRepository = &repository.CategoryRepositoryMock{Mock: mock.Mock{}}
